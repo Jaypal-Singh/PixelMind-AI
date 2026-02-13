@@ -6,15 +6,8 @@ dotenv.config();
 
 const port = process.env.PORT || 5000;
 
-// Connect to database
-connectDB();
-
-// Only listen if not running on Vercel (Vercel handles the export)
-if (process.env.NODE_ENV !== 'production') {
+connectDB().then(() => {
     app.listen(port, () => {
         console.log(`Server running on port ${port}`);
     });
-}
-
-// Export the app for Vercel
-export default app;
+});
