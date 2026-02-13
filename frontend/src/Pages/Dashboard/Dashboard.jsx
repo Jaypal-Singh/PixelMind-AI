@@ -4,7 +4,7 @@ import Stats from "./stas/stats";
 import RecentConversations from "./recentConversations/recentConversations";
 import MessageBreakdown from "./messageBreakdown/messageBreakdown";
 import Explore from "./explore/explore";
-import AcvitivityOverniview from "./activityOverview/AvitivityOverniview";
+import AcvitivityOverniview from "./activityOverview/avitivityOverniview";
 import PhoneTop from "../../components/Phone/PhoneTop";
 import { useOutletContext } from "react-router-dom";
 
