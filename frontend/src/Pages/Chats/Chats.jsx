@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ChatNavBar from "./chatNavBar/ChatNavBar";
+import ChatNavBar from "./chatNavBar/chatNavBar";
 import ChatBody from "./chatBody/chatBody";
 import ChatInput from "./chatInput/chatInput";
 import ChatHistory from "./chatHistory/chatHistory";
