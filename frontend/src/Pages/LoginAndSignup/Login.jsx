@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Mail, Lock } from "lucide-react";
-import styles from "./Loginsignup.module.css";
+import styles from "./LoginSignup.module.css";
 import PopupBox from "../../utils/popupbox/PopupBox";
 
 const Login = () => {
@@ -69,7 +69,7 @@ const Login = () => {
     setPopup((prev) => ({ ...prev, isVisible: false }));
   };
 
-  
+
   return (
     <section>
       {popup.isVisible && (
@@ -79,12 +79,12 @@ const Login = () => {
           onClose={closePopup}
         />
       )}
-      
+
       {Array.from({ length: 200 }).map((_, index) => (
         <span key={index}></span>
       ))}
 
-     
+
       <div className={styles.signin}>
         <div className={styles.content}>
           <h2>Login</h2>

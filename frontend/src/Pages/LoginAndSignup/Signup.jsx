@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import styles from "./Loginsignup.module.css";
+import styles from "./LoginSignup.module.css";
 import PopupBox from "../../utils/popupbox/PopupBox";
 
 const Signup = () => {
