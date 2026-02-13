@@ -11,7 +11,11 @@ import messageRoute from "./Routes/messageRoute.js";
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(cors({ 
+  origin: "pixel-mind-ai.vercel.app",
+  // origin : "localhost:5173",
+  credentials: true
+}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
