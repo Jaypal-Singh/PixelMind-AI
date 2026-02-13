@@ -146,7 +146,7 @@ const Dashboard = () => {
       </div>
 
       <div className="min-h-screen text-white p-6 font-sans bg-gradient-to-br from-gray-900 via-slate-900 to-black">
-        <div className="mb-6 h-30">
+        <div className="mb-6">
           <TopBar />
         </div>
 
